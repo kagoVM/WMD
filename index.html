@@ -89,6 +89,23 @@
 
 
 
+/* Set maximum width for the entire carousel container */
+.carousel-inner {
+  max-width: 1200px;   /* Adjust the maximum width of the carousel */
+  margin: 0 auto;      /* Center the carousel */
+}
+
+/* Apply custom styling to all images inside the carousel */
+.carousel-item img {
+  width: 100%;         /* Images will take the full width of their container */
+  height: auto;        /* Maintain the aspect ratio */
+  object-fit: cover;   /* Make the image cover the container without stretching */
+}
+
+/* Optional: Control the height of the carousel */
+.carousel-inner {
+  height: 600px;  /* Set a fixed height for the carousel */
+}
 
 <div id="carouselExampleCaptions" class="carousel slide">
   <div class="carousel-indicators">
